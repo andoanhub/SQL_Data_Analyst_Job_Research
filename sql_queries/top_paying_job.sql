@@ -1,4 +1,4 @@
--- Top 10 highest paying Data Analyst jobs in Singapore vs the word
+-- Top 10 highest paying Data Analyst jobs in Singapore
 SELECT
     job_title,
     job_location,
