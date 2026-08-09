@@ -1,7 +1,7 @@
 # SQL Data Analyst Job Research
 
 ## 📖 Introduction
-This project focuses on analyzing the **Data Analyst** job market using **PostgreSQL**. By leveraging relational database design and advanced SQL queries, this project explores top-paying positions in Singapore, required skills, geographical salary differences, and work-from-home (WFH) trends.
+This project focuses on analyzing the **Data Analyst** job market using **PostgreSQL**. By leveraging relational database design and advanced SQL queries, this project explores top-paying Data Anlyst job in Singapore, required skills for top pying job, country salary differences, and work-from-home (WFH) trends.
 
 ---
 
