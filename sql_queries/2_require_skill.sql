@@ -6,8 +6,9 @@ WITH top_paying_job AS (
         salary_year_avg,
         job_country
     FROM job_postings_fact
-    WHERE job_title LIKE '%Data Analyst%'
-      AND salary_year_avg IS NOT NULL
+    WHERE 
+        job_title LIKE '%Data Analyst%'
+        AND salary_year_avg IS NOT NULL
     ORDER BY salary_year_avg DESC 
     LIMIT 10
 )
