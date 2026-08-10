@@ -12,7 +12,6 @@ WITH top_paying_job AS (
     ORDER BY salary_year_avg DESC 
     LIMIT 10
 )
-)
 -- Skills required for data analyst jobs
 SELECT 
     top_paying_job.job_title,
@@ -24,5 +23,5 @@ JOIN
     skills_job_dim ON top_paying_job.job_id = skills_job_dim.job_id
 JOIN
     skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
-ORDER BY top_paying_job.salary_year_avg DESC
+ORDER BY top_paying_job.salary_year_avg DESC;
 

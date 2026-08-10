@@ -1,23 +1,36 @@
 # SQL Data Analyst Job Research
 
 ## 📖 Introduction
-This project focuses on analyzing the **Data Analyst** job market using **PostgreSQL**. By leveraging relational database design and advanced SQL queries, this project explores top-paying Data Anlyst job in Singapore, required skills for top pying job, country salary differences, and work-from-home (WFH) trends.
+This project analyzes the global Data Analyst job market using PostgreSQL, focusing on remote work (WFH) trends, required skills, salary distributions, and geographic benchmarks.
 
 ---
 
-## 🛠 Database Schema & Setup (`sql_load`)
-The database schema consists of 4 tables designed to handle job postings, companies, and related technical skills:
-
-* **`company_dim`**: Stores company profiles (`company_id`, `name`, `link`, `thumbnail`).
-* **`skills_dim`**: Stores technical skills and categories (`skill_id`, `skills`, `type`).
-* **`job_postings_fact`**: Contains core job listing details such as titles, locations, schedules, work-from-home status, and salaries (`job_id`, `company_id`, `job_title_short`, `salary_year_avg`, etc.).
-* **`skills_job_dim`**: A junction table linking jobs to their corresponding skills via a composite primary key (`job_id`, `skill_id`).
-
----
-
-## 📂 Project Directory Structure
+## 📂 Project Structure
 ```text
 SQL_Data_Analyst_Job_Research/
 │
-├── sql_load/          # Database creation, table schemas, indexes, and CSV data import scripts
-└── sql_queries/       # Analytical SQL queries answering key job market questions
+├── sql_load/         # Database schemas, table creation, and CSV import scripts
+└── sql_queries/      # SQL queries for job market analysis
+```
+
+---
+
+## 📊 Key Findings & Visualizations
+
+### 1. Top paying for Data Analyst role in Singapore (/Users/bean/Desktop/SQL Project/assets/top_salary_singapore.png)
+
+
+
+---
+
+### 2. Skill require for top paying of Data Analyst Role over the world
+(/Users/bean/Desktop/required_skill_top_salary.png)
+*Note: Chart built in Microsoft Excel*
+---
+
+### 3. Most demand skill for Data Analyst role
+Analysis across countries highlights distinct regional salary variations and peaks (e.g., Belarus, Namibia, Chile).
+
+![Top Avg Salary Country](Top_Avg_Salary_Country.png)
+
+---
