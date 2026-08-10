@@ -41,8 +41,8 @@ SQL_Data_Analyst_Job_Research/
 
 ### 4. Skills in High Demand and Associated Average Salaries for WFH Roles
 ![Skill vs Salary](assets/Skill_vs_Salary_.png)
-<br>
-*Note: Chart built in Microsoft Excel*
+<i>Note: Chart built in Microsoft Excel</i>
+
 ---
 
 ## 📌 Conclusion
